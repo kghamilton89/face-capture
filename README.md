@@ -5,10 +5,12 @@ Simple tool which locates and labels faces in photographs. This tool uses [NumPy
 ## Requirements
 
 * Python `3.x`
+* NumPy
+* OpenCV
 
 ## Instructions
 
-1. Clone `face-capture` repository in a local directory.
+1. Clone `face-capture` repository into a local directory.
 
 ```sh
 git clone https://github.com/kghamilton89/face-capture.git
@@ -19,6 +21,7 @@ git clone https://github.com/kghamilton89/face-capture.git
 ```sh
 sudo apt-get install build-essential
 sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
+sudo apt install python-opencv
 ```
 
 3. Install NumPy:
@@ -27,14 +30,17 @@ sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavform
 sudo apt-get install python-numpy
 ```
 
-2. Store the photo to be analyzed in the same directory as the repository.
-3. Navigate to the new directory.
+4. Store the photo to be analyzed in the same directory as the repository. The algorithm defines the photo name `test.jpg` on line **11**. Configure this parameter in `capture.py` to use a different file name or format.
+
+> Supported extensions: Windows bitmap (`bmp`), portable image formats (`pbm`, `pgm`, `ppm`), Sun raster (`sr`, `ras`), JPEG (`jpeg`, `jpg`, `jpe`), JPEG 2000 (`jp2`), TIFF files (`tiff`, `tif`), Portable network graphics (`png`).
+
+5. Navigate to the new directory.
 
 ```sh
 cd ./path/to/new-directory
 ```
 
-4. Enable execute permissions and run `capture.py`.
+6. Enable execute permissions and run `capture.py`.
 
 ```sh
 chmod +x capture.py
@@ -42,3 +48,15 @@ python capture.py
 ```
 
 ### Results
+
+#### Input
+
+![](./images/test.jpg)
+
+### Output
+
+`capture.py` writes the resulting photo to the same directory as `res.jpg`. Configure this behavior on line **32** of `capture.py`
+
+![](./images/res.jpg)
+
+Živio Tito!
