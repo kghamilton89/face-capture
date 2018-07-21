@@ -34,7 +34,7 @@ sudo apt-get install python-numpy
 
 4. Store the photo to be analyzed in the same directory as the repository with the name `test.jpg`. The algorithm defines the photo name on line **11**. Configure this parameter in `capture.py` to use a different file name or format.
 
-> Supported extensions: Windows bitmap (`bmp`), portable image formats (`pbm`, `pgm`, `ppm`), Sun raster (`sr`, `ras`), JPEG (`jpeg`, `jpg`, `jpe`), JPEG 2000 (`jp2`), TIFF files (`tiff`, `tif`), Portable network graphics (`png`).
+> Supported extensions: Windows bitmap (`bmp`), portable image formats (`pbm`, `pgm`, `ppm`), Sun raster (`sr`, `ras`), JPEG (`jpeg`, `jpg`, `jpe`), JPEG 2000 (`jp2`), TIFF files (`tiff`, `tif`), and portable network graphics (`png`).
 
 5. Navigate to the new directory.
 
