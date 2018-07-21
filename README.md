@@ -14,7 +14,7 @@ Simple tool which locates and labels faces in photographs. This tool uses [NumPy
 mkdir new-directory
 ```
 
-2. Store the photo to be analyzed in this directory/
+2. Store the photo to be analyzed in this directory.
 3. Navigate to the new directory.
 
 ```sh
