@@ -4,7 +4,7 @@ A simple tool which locates and labels faces in photographs. Use this algorithm 
 
 ## Requirements
 
-* Python `3.x`
+* Python `2.x` or `3.x`
 * NumPy
 * OpenCV
 
