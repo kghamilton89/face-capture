@@ -29,5 +29,6 @@ for (x,y,w,h) in faces:
 
 # Print image with labeling.
 cv.imshow('img',img)	
+cv.imwrite('res.jpg',img)
 cv.waitKey(0)
 cv.destroyAllWindows()
