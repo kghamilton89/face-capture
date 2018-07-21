@@ -61,4 +61,4 @@ python capture.py
 
 ![](./images/res.jpg)
 
-Živio Tito!
+[Živio Tito](https://en.wikipedia.org/wiki/Titoism)!
