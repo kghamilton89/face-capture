@@ -8,8 +8,8 @@ face_cascade = cv.CascadeClassifier('haarcascade_frontalface_default.xml')
 eye_cascade = cv.CascadeClassifier('haarcascade_eye.xml')
 
 # Create variables. `image` contains the image to analyze and `grayscale` converts the image to grayscale
-image = cv.imread('test2.jpg')
-grayscale = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
+image = cv.imread('test.jpg')
+grayscale = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
 
 # OpenCV function for facial recognition.
 faces = face_cascade.detectMultiScale(gray, 1.9, 5)
@@ -28,6 +28,6 @@ for (x,y,w,h) in faces:
 #cv.imshow('gray', gray)
 
 # Print image with labeling.
-cv.imshow('img',img)	
+cv.imshow('img',image)	
 cv.waitKey(0)
 cv.destroyAllWindows()
