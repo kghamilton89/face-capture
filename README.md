@@ -1,4 +1,4 @@
-# Face Capure
+# Face Capture
 
 ![](./images/title.jpg)
 
@@ -55,7 +55,7 @@ python capture.py
 
 ![](./images/test.jpg)
 
-### Output
+#### Output
 
 `capture.py` writes the resulting photo to the same directory as `res.jpg`. Configure this behavior on line **32** of `capture.py`
 
