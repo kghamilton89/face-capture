@@ -36,10 +36,10 @@ sudo apt-get install python-numpy
 
 > Supported extensions: Windows bitmap (`bmp`), portable image formats (`pbm`, `pgm`, `ppm`), Sun raster (`sr`, `ras`), JPEG (`jpeg`, `jpg`, `jpe`), JPEG 2000 (`jp2`), TIFF files (`tiff`, `tif`), and portable network graphics (`png`).
 
-5. Navigate to the new directory.
+5. Navigate to the repository directory.
 
 ```sh
-cd ./path/to/new-directory
+cd ./path/to/face-capture
 ```
 
 6. Enable execute permissions and run `capture.py`.
