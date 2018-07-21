@@ -3,11 +3,11 @@ import numpy as np
 import cv2 as cv
 
 
-# Create haarcascade for recognition
+# Create Haar Cascade for recognition functionality.
 face_cascade = cv.CascadeClassifier('haarcascade_frontalface_default.xml')
 eye_cascade = cv.CascadeClassifier('haarcascade_eye.xml')
 
-# Create variables. `img` contains the image to analyze and `gray` converts the image to grayscale
+# Create variables. `image` contains the image to analyze and `convert` converts the image to grayscale
 image = cv.imread('test.jpg')
 convert = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
 
