@@ -8,13 +8,26 @@ Simple tool which locates and labels faces in photographs. This tool uses [NumPy
 
 ## Instructions
 
-1. Create a new directory.
+1. Clone `face-capture` repository in a local directory.
 
 ```sh
-mkdir new-directory
+git clone https://github.com/kghamilton89/face-capture.git
 ```
 
-2. Store the photo to be analyzed in this directory.
+2. Install OpenCV:
+
+```sh
+sudo apt-get install build-essential
+sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
+```
+
+3. Install NumPy:
+
+```sh
+sudo apt-get install python-numpy
+```
+
+2. Store the photo to be analyzed in the same directory as the repository.
 3. Navigate to the new directory.
 
 ```sh
@@ -27,3 +40,5 @@ cd ./path/to/new-directory
 chmod +x capture.py
 python capture.py
 ```
+
+### Results
