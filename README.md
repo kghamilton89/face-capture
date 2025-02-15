@@ -1,5 +1,7 @@
 # Face Capture
 
+> Named amongst the [Top 100 Facial Recognitions Algorithms of 2022](https://meta-guide.com/software/100-best-github-facial-capture) by MetaGuide.
+
 ![](./images/title.jpg)
 
 A simple tool which locates and labels faces in photographs. Use this algorithm as the foundation for a more in-depth process. This tool uses [NumPy](http://www.numpy.org/) and [OpenCV](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_gui/py_image_display/py_image_display.html) libraries. [Free as in Freedom](https://en.wikipedia.org/wiki/GNU_General_Public_License).
